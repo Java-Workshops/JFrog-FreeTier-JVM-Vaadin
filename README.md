@@ -1,14 +1,3 @@
-# Project Base for a Vaadin application
-
-This project can be used as a starting point to create your own Vaadin application.
-It has the necessary dependencies and files to help you get started.
-It requires Java 8 or newer and node.js 10.16 or newer.
-
-To run the project, run `mvn jetty:run` and open [http://localhost:8080](http://localhost:8080) in browser.
-
-To update to the latest available Vaadin release, issue 
-`mvn versions:update-properties`
-
 # FreeTier - JVM - Vaadin
 Workshop for the JFrog FreeTier - JVM - Vaadin
 
@@ -212,6 +201,17 @@ mvn clean verify
 npm install
 npm ls
 ```
+
+### Project Base for a Vaadin application
+This project can be used as a starting point to create your own Vaadin application.
+It has the necessary dependencies and files to help you get started.
+It requires Java 11 or newer and node.js 10.16 or newer.
+
+To run the project, run `mvn jetty:run` and open [http://localhost:8080](http://localhost:8080) in browser.
+
+To update to the latest available Vaadin release, issue
+`mvn versions:update-properties`
+
 
 ## FreeTier Maintenance
 To maintain your Platform instance it is good to know that you have the functionality
