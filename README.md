@@ -174,12 +174,12 @@ Please, create the following repositories
 ### configuration of npm
 
 #### Configuration
-1) npm config set registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm
-1) npm config set @vaadin:registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm/
-1) npm config set @polymer:registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm/
-1) npm config set @babel:registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm/
-1) npm config set @webcomponents:registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm/
-1) npm config set @types:registry http://## jour server name ##.jfrog.io/artifactory/api/npm/npm/
+1) npm config set registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm
+1) npm config set @vaadin:registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm/
+1) npm config set @polymer:registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm/
+1) npm config set @babel:registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm/
+1) npm config set @webcomponents:registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm/
+1) npm config set @types:registry http://## your server name ##.jfrog.io/artifactory/api/npm/npm/
 1) npm cache clean --force
 
 #### Access
@@ -189,10 +189,10 @@ Please, create the following repositories
 _auth="## your hashed password"
 email=## your email ##
 always-auth=true
-//## jour server name ##.jfrog.io/artifactory/api/npm/npm/:_password="## your hashed password ##"
-//## jour server name ##.jfrog.io/artifactory/api/npm/npm/:username=## your username ##
-//## jour server name ##.jfrog.io/artifactory/api/npm/npm/:email=## your email ##
-//## jour server name ##.jfrog.io/artifactory/api/npm/npm/:always-auth=true
+//## your server name ##.jfrog.io/artifactory/api/npm/npm/:_password="## your hashed password ##"
+//## your server name ##.jfrog.io/artifactory/api/npm/npm/:username=## your username ##
+//## your server name ##.jfrog.io/artifactory/api/npm/npm/:email=## your email ##
+//## your server name ##.jfrog.io/artifactory/api/npm/npm/:always-auth=true
 ```
 
 ## Check if everything is working 
